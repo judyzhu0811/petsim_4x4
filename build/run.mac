@@ -1,0 +1,46 @@
+/gun/particle gamma
+/gun/energy 511 keV
+
+#near detectors
+/gun/position 0 0 0.02 m
+/run/beamOn 10000
+
+/gun/position 0.00625 0.00625 0.02 m
+/run/beamOn 10000
+
+/gun/position 0.01875 0.01875 0.02 m
+/run/beamOn 10000
+
+#center
+/gun/position 0 0 0 m
+/run/beamOn 10000
+
+/gun/position 0.00625 0.00625 0 m
+/run/beamOn 10000
+
+/gun/position 0.01875 0.01875 0 m
+/run/beamOn 10000
+
+#near back
+/gun/position 0 0 -0.02 m
+/run/beamOn 10000
+
+/gun/position 0.00625 0.00625 -0.02 m
+/run/beamOn 10000
+
+/gun/position 0.01875 0.01875 -0.02 m
+/run/beamOn 10000
+
+
+#example
+#/gun/momentumAmp 0.5 GeV
+#/run/beamOn 100
+#/gun/momentumAmp 1 GeV
+#/run/beamOn 100
+#/gun/momentumAmp 5 GeV
+#/run/beamOn 100
+
+# Enable event and scoring printout
+/tracking/verbose 0       # keep particle tracking quiet
+/run/verbose 1            # show run summary
+/event/verbose 1          # print summary for each event
