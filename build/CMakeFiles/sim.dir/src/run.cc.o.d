@@ -1,12 +1,7 @@
-CMakeFiles/sim.dir/action.cc.o: \
-  /Users/judyz/Desktop/Copy\ PET-cell-code-main\ /petsim_3x3/action.cc \
-  /Users/judyz/Desktop/Copy\ PET-cell-code-main\ /petsim_3x3/action.hh \
-  /usr/local/include/Geant4/G4VUserActionInitialization.hh \
-  /Users/judyz/Desktop/Copy\ PET-cell-code-main\ /petsim_3x3/generator.hh \
-  /usr/local/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
-  /usr/local/include/Geant4/G4ParticleGun.hh \
-  /usr/local/include/Geant4/globals.hh \
-  /usr/local/include/Geant4/G4ios.hh \
+CMakeFiles/sim.dir/src/run.cc.o: \
+  /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/src/run.cc \
+  /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/include/run.hh \
+  /usr/local/include/Geant4/G4UserRunAction.hh \
   /usr/local/include/Geant4/G4Types.hh \
   /usr/local/include/Geant4/G4GlobalConfig.hh \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/complex \
@@ -966,7 +961,9 @@ CMakeFiles/sim.dir/action.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /usr/local/include/Geant4/tls.hh \
+  /usr/local/include/Geant4/tls.hh /usr/local/include/Geant4/G4Run.hh \
+  /usr/local/include/Geant4/globals.hh \
+  /usr/local/include/Geant4/G4ios.hh \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /usr/local/include/Geant4/G4String.hh \
   /usr/local/include/Geant4/G4String.icc \
@@ -977,13 +974,39 @@ CMakeFiles/sim.dir/action.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
-  /usr/local/include/Geant4/G4VPrimaryGenerator.hh \
+  /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/include/detector.hh \
+  /usr/local/include/Geant4/G4VSensitiveDetector.hh \
+  /usr/local/include/Geant4/G4CollectionNameVector.hh \
+  /usr/local/include/Geant4/G4HCofThisEvent.hh \
+  /usr/local/include/Geant4/G4Allocator.hh \
+  /usr/local/include/Geant4/G4AllocatorPool.hh \
+  /usr/local/include/Geant4/G4VHitsCollection.hh \
+  /usr/local/include/Geant4/G4Step.hh \
   /usr/local/include/Geant4/G4ThreeVector.hh \
   /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /usr/local/include/Geant4/CLHEP/Utility/defs.h \
   /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.icc \
-  /usr/local/include/Geant4/G4ParticleDefinition.hh \
-  /usr/local/include/Geant4/G4PDefManager.hh \
+  /usr/local/include/Geant4/G4VPhysicalVolume.hh \
+  /usr/local/include/Geant4/geomdefs.hh \
+  /usr/local/include/Geant4/G4RotationMatrix.hh \
+  /usr/local/include/Geant4/CLHEP/Vector/Rotation.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.h \
+  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.h \
+  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationX.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationX.icc \
+  /usr/local/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+  /usr/local/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationY.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationY.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.h \
+  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.icc \
+  /usr/local/include/Geant4/CLHEP/Vector/Rotation.icc \
+  /usr/local/include/Geant4/G4GeomSplitter.hh \
+  /usr/local/include/Geant4/geomwdefs.hh \
   /usr/local/include/Geant4/G4AutoLock.hh \
   /usr/local/include/Geant4/G4Threading.hh \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
@@ -1017,47 +1040,6 @@ CMakeFiles/sim.dir/action.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /usr/local/include/Geant4/pwdefs.hh \
-  /usr/local/include/Geant4/CLHEP/Units/PhysicalConstants.h \
-  /usr/local/include/Geant4/CLHEP/Units/SystemOfUnits.h \
-  /usr/local/include/Geant4/G4ParticleDefinition.icc \
-  /usr/local/include/Geant4/G4PrimaryVertex.hh \
-  /usr/local/include/Geant4/G4Allocator.hh \
-  /usr/local/include/Geant4/G4AllocatorPool.hh \
-  /usr/local/include/Geant4/G4PrimaryParticle.hh \
-  /usr/local/include/Geant4/G4ParticleMomentum.hh \
-  /usr/local/include/Geant4/G4SystemOfUnits.hh \
-  /usr/local/include/Geant4/G4ParticleTable.hh \
-  /usr/local/include/Geant4/G4ParticleTableIterator.hh \
-  /usr/local/include/Geant4/G4ParticleTable.icc \
-  /Users/judyz/Desktop/Copy\ PET-cell-code-main\ /petsim_3x3/run.hh \
-  /usr/local/include/Geant4/G4UserRunAction.hh \
-  /usr/local/include/Geant4/G4Run.hh \
-  /Users/judyz/Desktop/Copy\ PET-cell-code-main\ /petsim_3x3/detector.hh \
-  /usr/local/include/Geant4/G4VSensitiveDetector.hh \
-  /usr/local/include/Geant4/G4CollectionNameVector.hh \
-  /usr/local/include/Geant4/G4HCofThisEvent.hh \
-  /usr/local/include/Geant4/G4VHitsCollection.hh \
-  /usr/local/include/Geant4/G4Step.hh \
-  /usr/local/include/Geant4/G4VPhysicalVolume.hh \
-  /usr/local/include/Geant4/geomdefs.hh \
-  /usr/local/include/Geant4/G4RotationMatrix.hh \
-  /usr/local/include/Geant4/CLHEP/Vector/Rotation.h \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
-  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.h \
-  /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.h \
-  /usr/local/include/Geant4/CLHEP/Vector/AxisAngle.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationX.h \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationX.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationY.h \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationY.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.h \
-  /usr/local/include/Geant4/CLHEP/Vector/RotationZ.icc \
-  /usr/local/include/Geant4/CLHEP/Vector/Rotation.icc \
-  /usr/local/include/Geant4/G4GeomSplitter.hh \
-  /usr/local/include/Geant4/geomwdefs.hh \
   /usr/local/include/Geant4/G4VPhysicalVolume.icc \
   /usr/local/include/Geant4/G4StepPoint.hh \
   /usr/local/include/Geant4/G4SteppingControl.hh \
@@ -1138,7 +1120,12 @@ CMakeFiles/sim.dir/action.cc.o: \
   /usr/local/include/Geant4/trkdefs.hh \
   /usr/local/include/Geant4/G4DynamicParticle.hh \
   /usr/local/include/Geant4/G4ElectronOccupancy.hh \
+  /usr/local/include/Geant4/pwdefs.hh \
   /usr/local/include/Geant4/G4LorentzVector.hh \
+  /usr/local/include/Geant4/G4ParticleDefinition.hh \
+  /usr/local/include/Geant4/G4PDefManager.hh \
+  /usr/local/include/Geant4/G4ParticleDefinition.icc \
+  /usr/local/include/Geant4/G4ParticleMomentum.hh \
   /usr/local/include/Geant4/G4DynamicParticle.icc \
   /usr/local/include/Geant4/G4TrackStatus.hh \
   /usr/local/include/Geant4/G4VUserTrackInformation.hh \
@@ -1147,4 +1134,70 @@ CMakeFiles/sim.dir/action.cc.o: \
   /usr/local/include/Geant4/G4VHit.hh \
   /usr/local/include/Geant4/G4VReadOutGeometry.hh \
   /usr/local/include/Geant4/G4SensitiveVolumeList.hh \
-  /usr/local/include/Geant4/G4VSDFilter.hh
+  /usr/local/include/Geant4/G4VSDFilter.hh \
+  /usr/local/include/Geant4/G4AnalysisManager.hh \
+  /usr/local/include/Geant4/G4GenericAnalysisManager.hh \
+  /usr/local/include/Geant4/G4ToolsAnalysisManager.hh \
+  /usr/local/include/Geant4/G4VAnalysisManager.hh \
+  /usr/local/include/Geant4/G4AnalysisManagerState.hh \
+  /usr/local/include/Geant4/G4AnalysisVerbose.hh \
+  /usr/local/include/Geant4/G4AnalysisUtilities.hh \
+  /usr/local/include/Geant4/G4VTBaseHnManager.hh \
+  /usr/local/include/Geant4/G4HnInformation.hh \
+  /usr/local/include/Geant4/G4BinScheme.hh \
+  /usr/local/include/Geant4/G4Fcn.hh \
+  /usr/local/include/Geant4/G4VAnalysisManager.icc \
+  /usr/local/include/Geant4/G4HnManager.hh \
+  /usr/local/include/Geant4/G4BaseAnalysisManager.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
+  /usr/local/include/Geant4/G4NtupleBookingManager.hh \
+  /usr/local/include/Geant4/tools/ntuple_booking \
+  /usr/local/include/Geant4/tools/cids \
+  /usr/local/include/Geant4/tools/cid \
+  /usr/local/include/Geant4/tools/typedefs \
+  /usr/local/include/Geant4/tools/forit \
+  /usr/local/include/Geant4/G4NtupleBookingManager.icc \
+  /usr/local/include/Geant4/G4VNtupleManager.hh \
+  /usr/local/include/Geant4/G4VFileManager.hh \
+  /usr/local/include/Geant4/G4BaseFileManager.hh \
+  /usr/local/include/Geant4/G4VTHnFileManager.hh \
+  /usr/local/include/Geant4/G4TH1ToolsManager.hh \
+  /usr/local/include/Geant4/G4THnToolsManager.hh \
+  /usr/local/include/Geant4/G4THnManager.hh \
+  /usr/local/include/Geant4/G4THnManager.icc \
+  /usr/local/include/Geant4/G4THnMessenger.hh \
+  /usr/local/include/Geant4/G4UImessenger.hh \
+  /usr/local/include/Geant4/G4UIdirectory.hh \
+  /usr/local/include/Geant4/G4UIcommand.hh \
+  /usr/local/include/Geant4/G4ApplicationState.hh \
+  /usr/local/include/Geant4/G4UIparameter.hh \
+  /usr/local/include/Geant4/G4THnToolsManager.icc \
+  /usr/local/include/Geant4/G4THnMessenger.icc \
+  /usr/local/include/Geant4/G4Tokenizer.hh \
+  /usr/local/include/Geant4/G4TH2ToolsManager.hh \
+  /usr/local/include/Geant4/G4TH3ToolsManager.hh \
+  /usr/local/include/Geant4/G4TP1ToolsManager.hh \
+  /usr/local/include/Geant4/G4TP2ToolsManager.hh \
+  /usr/local/include/Geant4/tools/histo/h1d \
+  /usr/local/include/Geant4/tools/histo/h1 \
+  /usr/local/include/Geant4/tools/histo/b1 \
+  /usr/local/include/Geant4/tools/histo/base_histo \
+  /usr/local/include/Geant4/tools/histo/histo_data \
+  /usr/local/include/Geant4/tools/histo/axes \
+  /usr/local/include/Geant4/tools/histo/axis \
+  /usr/local/include/Geant4/tools/histo/../eqT \
+  /usr/local/include/Geant4/tools/histo/h2d \
+  /usr/local/include/Geant4/tools/histo/h2 \
+  /usr/local/include/Geant4/tools/histo/b2 \
+  /usr/local/include/Geant4/tools/histo/h3d \
+  /usr/local/include/Geant4/tools/histo/h3 \
+  /usr/local/include/Geant4/tools/histo/b3 \
+  /usr/local/include/Geant4/tools/histo/p1d \
+  /usr/local/include/Geant4/tools/histo/p1 \
+  /usr/local/include/Geant4/tools/histo/profile_data \
+  /usr/local/include/Geant4/tools/histo/p2d \
+  /usr/local/include/Geant4/tools/histo/p2 \
+  /usr/local/include/Geant4/G4ToolsAnalysisManager.icc \
+  /usr/local/include/Geant4/G4GenericAnalysisManager.icc \
+  /usr/local/include/Geant4/G4GenericFileManager.hh \
+  /usr/local/include/Geant4/G4GenericFileManager.icc

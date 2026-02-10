@@ -1,7 +1,8 @@
-CMakeFiles/sim.dir/construction.cc.o: \
-  /Users/judyz/Desktop/Copy\ PET-cell-code-main\ /petsim_3x3/construction.cc \
-  /Users/judyz/Desktop/Copy\ PET-cell-code-main\ /petsim_3x3/construction.hh \
-  /usr/local/include/Geant4/G4VUserDetectorConstruction.hh \
+CMakeFiles/sim.dir/src/detector.cc.o: \
+  /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/src/detector.cc \
+  /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/include/detector.hh \
+  /usr/local/include/Geant4/G4VSensitiveDetector.hh \
+  /usr/local/include/Geant4/G4CollectionNameVector.hh \
   /usr/local/include/Geant4/globals.hh \
   /usr/local/include/Geant4/G4ios.hh \
   /usr/local/include/Geant4/G4Types.hh \
@@ -974,13 +975,18 @@ CMakeFiles/sim.dir/construction.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
-  /usr/local/include/Geant4/G4VPhysicalVolume.hh \
-  /usr/local/include/Geant4/geomdefs.hh \
-  /usr/local/include/Geant4/G4RotationMatrix.hh \
+  /usr/local/include/Geant4/G4HCofThisEvent.hh \
+  /usr/local/include/Geant4/G4Allocator.hh \
+  /usr/local/include/Geant4/G4AllocatorPool.hh \
+  /usr/local/include/Geant4/G4VHitsCollection.hh \
+  /usr/local/include/Geant4/G4Step.hh \
   /usr/local/include/Geant4/G4ThreeVector.hh \
   /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /usr/local/include/Geant4/CLHEP/Utility/defs.h \
   /usr/local/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+  /usr/local/include/Geant4/G4VPhysicalVolume.hh \
+  /usr/local/include/Geant4/geomdefs.hh \
+  /usr/local/include/Geant4/G4RotationMatrix.hh \
   /usr/local/include/Geant4/CLHEP/Vector/Rotation.h \
   /usr/local/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
   /usr/local/include/Geant4/CLHEP/Vector/LorentzVector.h \
@@ -1033,36 +1039,37 @@ CMakeFiles/sim.dir/construction.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
   /usr/local/include/Geant4/G4VPhysicalVolume.icc \
+  /usr/local/include/Geant4/G4StepPoint.hh \
+  /usr/local/include/Geant4/G4SteppingControl.hh \
+  /usr/local/include/Geant4/G4StepStatus.hh \
+  /usr/local/include/Geant4/G4TouchableHandle.hh \
+  /usr/local/include/Geant4/G4VTouchable.hh \
+  /usr/local/include/Geant4/G4TouchableHistory.hh \
+  /usr/local/include/Geant4/G4NavigationHistory.hh \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
+  /usr/local/include/Geant4/G4AffineTransform.hh \
+  /usr/local/include/Geant4/G4Transform3D.hh \
+  /usr/local/include/Geant4/CLHEP/Geometry/Transform3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /usr/local/include/Geant4/CLHEP/Geometry/Point3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Vector3D.h \
+  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h \
+  /usr/local/include/Geant4/G4AffineTransform.icc \
+  /usr/local/include/Geant4/G4NavigationLevel.hh \
+  /usr/local/include/Geant4/G4NavigationLevelRep.hh \
+  /usr/local/include/Geant4/G4NavigationLevelRep.icc \
+  /usr/local/include/Geant4/G4NavigationLevel.icc \
+  /usr/local/include/Geant4/G4NavigationHistoryPool.hh \
+  /usr/local/include/Geant4/G4NavigationHistory.icc \
   /usr/local/include/Geant4/G4LogicalVolume.hh \
   /usr/local/include/Geant4/G4Region.hh \
   /usr/local/include/Geant4/G4Region.icc \
   /usr/local/include/Geant4/G4LogicalVolume.icc \
-  /usr/local/include/Geant4/G4Box.hh \
-  /usr/local/include/Geant4/G4GeomTypes.hh \
-  /usr/local/include/Geant4/G4GeomConfig.hh \
-  /usr/local/include/Geant4/G4CSGSolid.hh \
-  /usr/local/include/Geant4/G4VSolid.hh \
-  /usr/local/include/Geant4/G4VSolid.icc \
-  /usr/local/include/Geant4/G4Polyhedron.hh \
-  /usr/local/include/Geant4/HepPolyhedron.h \
-  /usr/local/include/Geant4/G4TwoVector.hh \
-  /usr/local/include/Geant4/CLHEP/Vector/TwoVector.h \
-  /usr/local/include/Geant4/CLHEP/Vector/TwoVector.icc \
-  /usr/local/include/Geant4/G4Point3D.hh \
-  /usr/local/include/Geant4/CLHEP/Geometry/Point3D.h \
-  /usr/local/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
-  /usr/local/include/Geant4/G4Normal3D.hh \
-  /usr/local/include/Geant4/CLHEP/Geometry/Normal3D.h \
-  /usr/local/include/Geant4/G4Transform3D.hh \
-  /usr/local/include/Geant4/CLHEP/Geometry/Transform3D.h \
-  /usr/local/include/Geant4/CLHEP/Geometry/Transform3D.icc \
-  /usr/local/include/Geant4/CLHEP/Geometry/Vector3D.h \
-  /usr/local/include/Geant4/G4Visible.hh \
-  /usr/local/include/Geant4/G4Visible.icc \
-  /usr/local/include/Geant4/G4Box.icc \
-  /usr/local/include/Geant4/G4PVPlacement.hh \
-  /usr/local/include/Geant4/G4NistManager.hh \
-  /usr/local/include/Geant4/G4ICRU90StoppingData.hh \
+  /usr/local/include/Geant4/G4TouchableHistory.icc \
+  /usr/local/include/Geant4/G4ReferenceCountedHandle.hh \
   /usr/local/include/Geant4/G4Material.hh \
   /usr/local/include/Geant4/G4Element.hh \
   /usr/local/include/Geant4/G4ElementTable.hh \
@@ -1104,51 +1111,6 @@ CMakeFiles/sim.dir/construction.cc.o: \
   /usr/local/include/Geant4/G4OrderedTable.hh \
   /usr/local/include/Geant4/G4DataVector.hh \
   /usr/local/include/Geant4/G4DataVector.icc \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /usr/local/include/Geant4/G4NistElementBuilder.hh \
-  /usr/local/include/Geant4/G4NistMaterialBuilder.hh \
-  /usr/local/include/Geant4/G4Pow.hh /usr/local/include/Geant4/G4Exp.hh \
-  /usr/local/include/Geant4/G4SystemOfUnits.hh \
-  /usr/local/include/Geant4/G4OpticalSurface.hh \
-  /usr/local/include/Geant4/G4Physics2DVector.hh \
-  /usr/local/include/Geant4/G4Physics2DVector.icc \
-  /usr/local/include/Geant4/G4SurfaceProperty.hh \
-  /usr/local/include/Geant4/G4LogicalSkinSurface.hh \
-  /usr/local/include/Geant4/G4LogicalSurface.hh \
-  /usr/local/include/Geant4/G4LogicalSurface.icc \
-  /usr/local/include/Geant4/G4LogicalSkinSurface.icc \
-  /usr/local/include/Geant4/G4VisAttributes.hh \
-  /usr/local/include/Geant4/graphics_reps_defs.hh \
-  /usr/local/include/Geant4/G4Colour.hh \
-  /usr/local/include/Geant4/G4Color.hh \
-  /usr/local/include/Geant4/G4VisAttributes.icc \
-  /Users/judyz/Desktop/Copy\ PET-cell-code-main\ /petsim_3x3/detector.hh \
-  /usr/local/include/Geant4/G4VSensitiveDetector.hh \
-  /usr/local/include/Geant4/G4CollectionNameVector.hh \
-  /usr/local/include/Geant4/G4HCofThisEvent.hh \
-  /usr/local/include/Geant4/G4Allocator.hh \
-  /usr/local/include/Geant4/G4AllocatorPool.hh \
-  /usr/local/include/Geant4/G4VHitsCollection.hh \
-  /usr/local/include/Geant4/G4Step.hh \
-  /usr/local/include/Geant4/G4StepPoint.hh \
-  /usr/local/include/Geant4/G4SteppingControl.hh \
-  /usr/local/include/Geant4/G4StepStatus.hh \
-  /usr/local/include/Geant4/G4TouchableHandle.hh \
-  /usr/local/include/Geant4/G4VTouchable.hh \
-  /usr/local/include/Geant4/G4TouchableHistory.hh \
-  /usr/local/include/Geant4/G4NavigationHistory.hh \
-  /usr/local/include/Geant4/G4AffineTransform.hh \
-  /usr/local/include/Geant4/G4AffineTransform.icc \
-  /usr/local/include/Geant4/G4NavigationLevel.hh \
-  /usr/local/include/Geant4/G4NavigationLevelRep.hh \
-  /usr/local/include/Geant4/G4NavigationLevelRep.icc \
-  /usr/local/include/Geant4/G4NavigationLevel.icc \
-  /usr/local/include/Geant4/G4NavigationHistoryPool.hh \
-  /usr/local/include/Geant4/G4NavigationHistory.icc \
-  /usr/local/include/Geant4/G4TouchableHistory.icc \
-  /usr/local/include/Geant4/G4ReferenceCountedHandle.hh \
   /usr/local/include/Geant4/G4StepPoint.icc \
   /usr/local/include/Geant4/G4TrackVector.hh \
   /usr/local/include/Geant4/G4Step.icc \
@@ -1171,9 +1133,5 @@ CMakeFiles/sim.dir/construction.cc.o: \
   /usr/local/include/Geant4/G4VReadOutGeometry.hh \
   /usr/local/include/Geant4/G4SensitiveVolumeList.hh \
   /usr/local/include/Geant4/G4VSDFilter.hh \
-  /usr/local/include/Geant4/G4SDManager.hh \
-  /usr/local/include/Geant4/G4HCtable.hh \
-  /usr/local/include/Geant4/G4SDStructure.hh \
-  /usr/local/include/Geant4/G4LogicalVolumeStore.hh \
-  /usr/local/include/Geant4/G4VStoreNotifier.hh \
-  /usr/local/include/Geant4/G4VNotifier.hh
+  /usr/local/include/Geant4/G4SystemOfUnits.hh \
+  /usr/local/include/Geant4/G4OpticalPhoton.hh

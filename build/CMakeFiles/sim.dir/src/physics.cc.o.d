@@ -1,6 +1,6 @@
-CMakeFiles/sim.dir/physics.cc.o: \
-  /Users/judyz/Desktop/Copy\ PET-cell-code-main\ /petsim_3x3/physics.cc \
-  /Users/judyz/Desktop/Copy\ PET-cell-code-main\ /petsim_3x3/physics.hh \
+CMakeFiles/sim.dir/src/physics.cc.o: \
+  /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/src/physics.cc \
+  /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/include/physics.hh \
   /usr/local/include/Geant4/G4VModularPhysicsList.hh \
   /usr/local/include/Geant4/G4VPhysicsConstructor.hh \
   /usr/local/include/Geant4/G4ParticleTable.hh \

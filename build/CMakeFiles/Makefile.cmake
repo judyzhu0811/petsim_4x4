@@ -138,7 +138,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/Platform/Linker/Apple-AppleClang.cmake"
   "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/Platform/UnixPaths.cmake"
   "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/SelectLibraryConfigurations.cmake"
-  "/Users/judyz/Desktop/Copy PET-cell-code-main /petsim_3x3/CMakeLists.txt"
+  "/Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/CMakeLists.txt"
   "CMakeFiles/4.2.1/CMakeCCompiler.cmake"
   "CMakeFiles/4.2.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.1/CMakeSystem.cmake"

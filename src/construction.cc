@@ -268,11 +268,19 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 	G4VPhysicalVolume *physTeflonShell = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), logicTeflonShell, "physTeflonShell", logicWorld, false, 0, true);
 
 	//liquid xenon in PET cell
-	G4Box *solidLiquidXenon = new G4Box("liquidXenon", 0.035*m, 0.035*m, 0.025*m);
-	//G4LogicalVolume *logicLiquidXenon = new G4LogicalVolume(solidLiquidXenon, G4Material::GetMaterial("LXe"), "logicLiquidXenon");
-	G4LogicalVolume *logicLiquidXenon = new G4LogicalVolume(solidLiquidXenon, LXe, "logicLiquidXenon");
-	G4VPhysicalVolume *physLiquidXenon = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.*m), logicLiquidXenon, "physLiquidXenon", logicTeflonShell, false, 0, true);
+	G4double shrinkXY = 1*mm; // shrink on x and y
+G4double shrinkZ  = 1*mm; // shrink on z
 
+G4Box *solidLiquidXenon = new G4Box(
+    "liquidXenon",
+    0.035*m - shrinkXY,
+    0.035*m - shrinkXY,
+    0.025*m - shrinkZ
+);
+G4LogicalVolume *logicLiquidXenon = new G4LogicalVolume(solidLiquidXenon, LXe, "logicLiquidXenon");
+G4VPhysicalVolume *physLiquidXenon = new G4PVPlacement(
+    0, G4ThreeVector(0., 0., 0.*m), logicLiquidXenon, "physLiquidXenon", logicTeflonShell, false, 0, true
+);
 	// Create solid detector and logical volume
 G4Box *solidDetector = new G4Box("solidDetector", 0.0075*m, 0.0075*m, 0.001*m);
 G4Material* Silicon = nist->FindOrBuildMaterial("G4_Si");

@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/judyz/Desktop/Copy PET-cell-code-main /petsim_3x3"
+CMAKE_SOURCE_DIR = /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/judyz/Desktop/Copy PET-cell-code-main /petsim_3x3/build"
+CMAKE_BINARY_DIR = /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/build
 
 # Utility rule file for Simulation.
 
@@ -84,6 +84,6 @@ CMakeFiles/Simulation.dir/clean:
 .PHONY : CMakeFiles/Simulation.dir/clean
 
 CMakeFiles/Simulation.dir/depend:
-	cd "/Users/judyz/Desktop/Copy PET-cell-code-main /petsim_3x3/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/judyz/Desktop/Copy PET-cell-code-main /petsim_3x3" "/Users/judyz/Desktop/Copy PET-cell-code-main /petsim_3x3" "/Users/judyz/Desktop/Copy PET-cell-code-main /petsim_3x3/build" "/Users/judyz/Desktop/Copy PET-cell-code-main /petsim_3x3/build" "/Users/judyz/Desktop/Copy PET-cell-code-main /petsim_3x3/build/CMakeFiles/Simulation.dir/DependInfo.cmake" "--color=$(COLOR)" Simulation
+	cd /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4 /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4 /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/build /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/build /Users/judyz/Desktop/PET-cell-code-new/petsim_4x4/build/CMakeFiles/Simulation.dir/DependInfo.cmake "--color=$(COLOR)" Simulation
 .PHONY : CMakeFiles/Simulation.dir/depend
 
